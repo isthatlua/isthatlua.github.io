@@ -8,7 +8,7 @@ Here you'll find projects that showcase my skills in creating documentation that
 
 ## 🚀 Projects
 
-### [Case Study: Complete Overhaul of the "Prompt Alchemy" Project Contribution Guide](project-prompt-alchemy.html)
+### [Case Study: Complete Overhaul of the "Prompt Alchemy" Project Contribution Guide](https://github.com/isthatlua/prompt-alchemy/blob/main/CONTRIBUTING.md)
 
 *In this project, I transformed a vague contribution guide into a comprehensive and professional document, improving the experience for new developers and following open-source best practices.*
 
