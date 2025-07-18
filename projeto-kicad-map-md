@@ -1,0 +1,36 @@
+# My Contribution to the "LaunchMap" Project
+
+**Project:** LaunchMap - A Visual Studio Code extension for visualizing ROS 2 launch files.
+
+---
+
+## 💡 The Challenge / Opportunity
+
+As a new user attempting to test the extension, I identified several points of friction in the documentation (`README.md`) that could create a confusing first experience. The instructions were not fully up-to-date, and there was no self-contained example to allow for immediate testing, which required new users to find or create their own ROS 2 project first.
+
+## 🛠️ My Solution & Contribution
+
+I submitted a comprehensive Pull Request to overhaul the `README.md`, focusing on improving clarity and the first-time user experience. After a detailed review and collaboration process with the project maintainer, the final version included several key improvements.
+
+- **Type of Contribution:** Documentation & User Experience (UX) Improvement
+- **Key Changes:**
+    - Updated the setup instructions with the correct command name.
+    - Created a new "Quick Start Example" with a copy-pasteable code block, allowing the extension to be tested in under a minute.
+    - Added a descriptive "Expected Outcome" with a screenshot to provide clear visual confirmation of success.
+    - Added a "Troubleshooting" section to proactively address common user issues.
+    - Implemented all of the maintainer's feedback, including restructuring sections and adding more learning resources for ROS 2 beginners.
+
+## ⚙️ The Process
+
+The contribution was managed through a Pull Request on the project's official GitHub repository. The process involved a thorough back-and-forth review cycle with the project maintainer, which led to multiple iterations and a significantly improved final document.
+
+## 🚀 Technologies Used
+
+- **Primary Language:** `Markdown`
+- **Tools & Platforms:** `Git` `GitHub` `VSCode`
+
+---
+
+---
+
+**[➡️ View the full Pull Request (#24) on GitHub](https://github.com/Kodo-Robotics/launchmap/pull/24) | [📄 View the final README file](https://github.com/Kodo-Robotics/launchmap/blob/main/README.md)**
