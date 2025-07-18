@@ -31,6 +31,4 @@ The contribution was managed through a Pull Request on the project's official Gi
 
 ---
 
----
-
-**[➡️ View the full Pull Request (#24) on GitHub](https://github.com/Kodo-Robotics/launchmap/pull/24) | [📄 View the final README file](https://github.com/Kodo-Robotics/launchmap/blob/main/README.md)**
+**[➡️ View the full Pull Request (#24) on GitHub](link-para-o-seu-pull-request) | [📄 View the final README file](https://github.com/Kodo-Robotics/launchmap/blob/main/README.md)**
