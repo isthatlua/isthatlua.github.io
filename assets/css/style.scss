@@ -1,0 +1,54 @@
+---
+---
+
+// Importa os estilos base do tema minimal
+@import "jekyll-theme-minimal";
+
+// Sobrescreve as variáveis de cor para tons de lilás
+$blue-000: #E6E6FA; // Lavanda (azul bem clarinho quase branco)
+$blue-100: #D8BFD8; // Lilás Pastel
+$blue-200: #C2A2D4; // Lilás um pouco mais forte
+$blue-300: #A783C8; // Lilás médio
+$blue-400: #8A64BD; // Lilás mais intenso
+$blue-500: #6B49AB; // Roxo Profundo
+$blue-600: #573A92; // Roxo mais escuro
+$blue-700: #422D79; // Roxo muito escuro
+$blue-800: #2D1E5E; // Quase preto roxo
+$blue-900: #1C0F47; // Roxo quase preto
+
+// Se houver elementos que usam uma variável de cor primária, você pode sobrescrever aqui
+// Exemplo: se o tema usar $brand-color
+$brand-color: $blue-500; // Define a cor principal como um lilás médio
+
+// Você também pode sobrescrever cores de links e outros elementos diretamente,
+// se o tema não usar variáveis específicas para eles ou se você quiser um controle maior.
+a {
+  color: $blue-500; // Exemplo: links em lilás
+  &:hover {
+    color: $blue-600; // Um lilás mais escuro ao passar o mouse
+  }
+}
+
+// Se a cor do texto principal ou de títulos também estiver em azul e você quiser mudar:
+body {
+  // background-color: $blue-000; // Descomente se quiser um fundo lilás clarinho
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $blue-700; // Títulos em roxo escuro
+}
+
+// Se o seu "horizontal rule" (a linha ---) for azul, você pode mudar:
+hr {
+  border-color: $blue-300;
+}
+
+// Para botões ou outros elementos que usem as cores do tema
+.btn-primary {
+  background-color: $blue-500;
+  border-color: $blue-500;
+  &:hover {
+    background-color: $blue-600;
+    border-color: $blue-600;
+  }
+}
