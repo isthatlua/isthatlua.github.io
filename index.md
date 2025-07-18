@@ -1,17 +1,17 @@
-# Olá, eu sou a Lua! 👋
+# Hi, I'm Lulu! 👋
 
-Bem-vinda ao meu portfólio de Redação Técnica e Documentação. Sou apaixonada por transformar informações complexas em conteúdo claro, conciso e acessível.
+Welcome to my Technical Writing and Documentation portfolio. I'm passionate about transforming complex information into clear, concise, and accessible content.
 
-Aqui você encontrará os projetos que demonstram minhas habilidades em criar documentação que empodera usuários e desenvolvedores.
+Here you'll find projects that showcase my skills in creating documentation that empowers users and developers.
 
 ---
 
-## 🚀 Projetos
+## 🚀 Projects
 
-### [Estudo de Caso: Reforma Completa do Guia de Contribuição do Projeto "Prompt Alchemy"](projeto-prompt-alchemy.html)
+### [Case Study: Complete Overhaul of the "Prompt Alchemy" Project Contribution Guide](project-prompt-alchemy.html)
 
-*Neste projeto, transformei um guia de contribuição vago em um documento completo e profissional, melhorando a experiência para novos desenvolvedores e seguindo as melhores práticas do universo open-source.*
+*In this project, I transformed a vague contribution guide into a comprehensive and professional document, improving the experience for new developers and following open-source best practices.*
 
-### [Colaboração em Open-Source: Otimizando a Documentação do "KiCad Map"](https://github.com/Kodo-Robotics/launchmap)
+### [Open-Source Contribution: Documentation for the "KiCad Map" Project](https://github.com/Kodo-Robotics/launchmap)
 
-*Como tech writer, mergulhei no projeto "KiCad Map" (da Kodo-Robotics), focando em refinar e padronizar sua documentação. Meu trabalho garantiu que usuários e colaboradores pudessem navegar pelos detalhes técnicos com facilidade, transformando informações complexas em guias claros e eficazes. É tipo organizar a biblioteca de Hogwarts pra todo mundo achar o livro certo!*
+*I actively participated in improving the documentation for "KiCad Map," a crucial robotics project, ensuring that technical information was clear and accessible to the open-source community. My contribution helped unravel the project's mysteries!*
