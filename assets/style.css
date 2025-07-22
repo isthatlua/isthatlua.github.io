@@ -96,11 +96,13 @@ h2 {
     border: 3px solid var(--color-sage);
 }
 
-/* Portfolio Grid */
+/* Correções para o Alinhamento dos Projetos na Grade */
+
 .portfolio-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 20px;
+    align-items: stretch; /* Garante que os itens da grade tenham a mesma altura */
 }
 
 .project-item {
@@ -109,23 +111,45 @@ h2 {
     border-radius: 8px;
     text-align: center;
     color: white; /* Texto dos projetos */
+    
+    /* PROPRIEDADES NOVAS/AJUSTADAS PARA ALINHAMENTO INTERNO */
+    display: flex; /* Faz do item de projeto um container flexível */
+    flex-direction: column; /* Coloca os conteúdos um abaixo do outro */
+    justify-content: flex-start; /* Alinha o conteúdo no topo */
+    height: 100%; /* IMPORTANTE: Garante que o item ocupe toda a altura da sua célula na grade */
+}
+
+.project-item img {
+    max-width: 100%;
+    height: 180px; /* FIXA a altura da imagem para todas as imagens */
+    object-fit: cover; /* Corta a imagem para preencher o espaço, sem distorcer */
+    border-radius: 4px;
+    margin-bottom: 15px;
 }
 
 .project-item h3 {
     color: white;
     margin-top: 0;
-}
-
-.project-item img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 4px;
-    margin-bottom: 15px;
+    min-height: 40px; /* Garante uma altura mínima para o título, caso seja curto */
+    /* OPCIONAL: Limita o título a duas linhas se for muito longo */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limita a 2 linhas */
+    -webkit-box-orient: vertical;
 }
 
 .project-item p {
     font-size: 0.9em;
     opacity: 0.9;
+    flex-grow: 1; /* Faz a descrição "crescer" para ocupar o espaço restante */
+    margin-bottom: 15px;
+    /* OPCIONAL: Limita a descrição a 4 linhas se for muito longa */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Limita a 4 linhas */
+    -webkit-box-orient: vertical;
 }
 
 .project-item .button {
@@ -134,13 +158,14 @@ h2 {
     color: var(--color-jet);
     padding: 10px 20px;
     border-radius: 5px;
-    margin-top: 15px;
+    margin-top: auto; /* IMPORTANTE: Empurra o botão para o final do bloco */
     transition: background-color 0.3s ease;
 }
 
 .project-item .button:hover {
-    background-color: darken(var(--color-tea-green), 10%);
+    background-color: var(--color-jet); 
     text-decoration: none;
+}
 }
 
 /* Contact Section */
@@ -195,4 +220,68 @@ footer {
     .about-content {
         flex-direction: column;
     }
+}
+/* Estilos para as páginas de Projeto */
+
+.header-projeto {
+    background-color: var(--color-jet); /* Fundo preto para o cabeçalho do projeto */
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.header-projeto h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.header-projeto .description-projeto {
+    font-size: 1.1em;
+    opacity: 0.8;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.main-projeto {
+    padding: 40px 0;
+}
+
+.section-container-projeto {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    color: var(--color-jet); /* Garante que o texto seja da nossa cor Grafite */
+}
+
+.section-container-projeto h3 {
+    color: var(--color-sage-dark); /* Títulos dentro da página do projeto */
+    margin-top: 30px;
+}
+
+.section-container-projeto ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.section-container-projeto ul li {
+    margin-bottom: 8px;
+}
+
+.button-back {
+    display: inline-block;
+    background-color: var(--color-tea-green);
+    color: var(--color-jet);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.button-back:hover {
+    background-color: darken(var(--color-tea-green), 10%);
 }
