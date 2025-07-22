@@ -14,7 +14,7 @@
 
 /* Base Body (o corpo do site) */
 body {
-    font-family: 'Roboto', sans-serif; /* A nossa Roboto no corpo do texto! */
+    font-family: 'Roboto', sans-serif; /* Roboto no corpo do texto! */
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -35,12 +35,11 @@ a:hover {
 
 /* Títulos (H1, H2, H3, H4) */
 h1, h2, h3, h4 {
-    font-family: 'Dancing Script', cursive; /* A nossa cursiva linda nos títulos! */
+    font-family: 'Dancing Script', cursive; /* Nossa cursiva linda nos títulos! */
     color: var(--color-sage-dark);
-    text-align: center; /* Centraliza os títulos H2 (como "Meus Projetos") */
+    text-align: center; /* Centraliza os títulos (H2 como "Meus Projetos") */
     margin-bottom: 30px;
 }
-
 
 /* Header (a seção do banner) */
 .header {
@@ -97,14 +96,8 @@ h1, h2, h3, h4 {
     text-align: center;
 }
 
-/* A foto de perfil (se você decidir usar uma no futuro, mas sem mostrar agora) */
-/* .profile-photo {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 0;
-    border: 3px solid var(--color-sage);
-} */
+/* A foto de perfil (o CSS dela não é mais necessário aqui pois a imagem foi removida do HTML) */
+/* .profile-photo { ... } */
 
 /* Correções para o Alinhamento dos Projetos na Grade */
 .portfolio-grid {
@@ -174,7 +167,6 @@ h1, h2, h3, h4 {
     text-decoration: none;
 }
 
-
 /* Contact Section */
 .contact-details {
     display: flex;
@@ -217,12 +209,14 @@ footer {
 }
 
 .header-projeto h1 {
+    font-family: 'Dancing Script', cursive; /* Cursiva no título da página de projeto */
     font-size: 2.5em;
     margin-bottom: 10px;
     color: white;
 }
 
 .header-projeto .description-projeto {
+    font-family: 'Roboto', sans-serif; /* Roboto na descrição da página de projeto */
     font-size: 1.1em;
     opacity: 0.8;
     max-width: 800px;
@@ -244,6 +238,7 @@ footer {
 }
 
 .section-container-projeto h3 {
+    font-family: 'Dancing Script', cursive; /* Cursiva nos h3 das páginas de projeto */
     color: var(--color-sage-dark);
     margin-top: 30px;
 }
