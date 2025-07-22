@@ -33,13 +33,31 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Títulos (H1, H2, H3, H4) */
+/* Títulos (H1, H2, H3, H4) - Ajustes de tamanho AQUI! */
 h1, h2, h3, h4 {
     font-family: 'Dancing Script', cursive; /* Nossa cursiva linda nos títulos! */
     color: var(--color-sage-dark);
-    text-align: center; /* Centraliza os títulos (H2 como "Meus Projetos") */
+    text-align: center;
     margin-bottom: 30px;
 }
+
+/* Tamanho específico para cada nível de título */
+h1 {
+    font-size: 3.5em; /* Para o título principal do banner (Lulu Costa) */
+}
+
+h2 { /* Para "Sobre Mim", "Meus Projetos", "Vamos Conversar?" */
+    font-size: 2.2em; /* Tamanho maior e impactante para títulos de seção */
+}
+
+h3 { /* Para "Minha Jornada: Dos Blogs ao Código" e títulos de projeto nos cards */
+    font-size: 1.6em; /* Tamanho bom para subtítulos e títulos de cards */
+}
+
+h4 {
+    font-size: 1.3em;
+}
+
 
 /* Header (a seção do banner) */
 .header {
@@ -96,9 +114,6 @@ h1, h2, h3, h4 {
     text-align: center;
 }
 
-/* A foto de perfil (o CSS dela não é mais necessário aqui pois a imagem foi removida do HTML) */
-/* .profile-photo { ... } */
-
 /* Correções para o Alinhamento dos Projetos na Grade */
 .portfolio-grid {
     display: grid;
@@ -130,6 +145,7 @@ h1, h2, h3, h4 {
 }
 
 .project-item h3 {
+    font-family: 'Dancing Script', cursive; /* Cursiva no título do projeto (card) */
     color: white; /* Cor do título do projeto */
     margin-top: 0;
     min-height: 40px;
@@ -141,6 +157,7 @@ h1, h2, h3, h4 {
 }
 
 .project-item p {
+    font-family: 'Roboto', sans-serif; /* Roboto na descrição do projeto (card) */
     font-size: 0.9em;
     opacity: 0.9;
     flex-grow: 1; /* Faz a descrição "crescer" para ocupar o espaço restante */
@@ -163,9 +180,10 @@ h1, h2, h3, h4 {
 }
 
 .project-item .button:hover {
-    background-color: var(--color-jet); /* Mudei para Jet para ter mais contraste no hover */
+    background-color: var(--color-jet); 
     text-decoration: none;
 }
+
 
 /* Contact Section */
 .contact-details {
@@ -176,6 +194,7 @@ h1, h2, h3, h4 {
 }
 
 .contact-details p {
+    font-family: 'Roboto', sans-serif; /* Roboto no texto de contato */
     margin: 0;
     font-size: 1.1em;
     color: var(--color-jet);
@@ -192,6 +211,7 @@ h1, h2, h3, h4 {
 
 /* Footer */
 footer {
+    font-family: 'Roboto', sans-serif; /* Roboto no rodapé */
     text-align: center;
     padding: 30px;
     background-color: var(--color-jet);
@@ -199,7 +219,7 @@ footer {
     font-size: 0.8em;
 }
 
-/* Estilos para as páginas de Projeto */
+/* Estilos para as páginas de Projeto (individualmente) */
 
 .header-projeto {
     background-color: var(--color-jet);
@@ -244,12 +264,17 @@ footer {
 }
 
 .section-container-projeto ul {
+    font-family: 'Roboto', sans-serif; /* Roboto nas listas das páginas de projeto */
     list-style-type: disc;
     margin-left: 20px;
 }
 
 .section-container-projeto ul li {
     margin-bottom: 8px;
+}
+
+.section-container-projeto p {
+    font-family: 'Roboto', sans-serif; /* Roboto nos parágrafos das páginas de projeto */
 }
 
 .button-back {
